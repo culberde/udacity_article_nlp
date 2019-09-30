@@ -1,0 +1,13 @@
+@import 'base';
+
+.footer {
+  grid-area: ft;
+  display: flex;
+  // grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#aylienLogo {
+  height: 100px;
+}

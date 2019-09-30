@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Evaluate News Articles with Aylien NLP</title>
+    <script type="text/javascript" src="../../../dist/main.js"></script>
+  </head>
+  <body>
+    <header class ="appTitle">
+      <h1>Analyze News Articles with Natural Language Processing</h1>
+    </header>
+    <summary class ="description">
+      This application utilizes Aylien's natural language processing (NLP)
+      engine to perform a detailed analysis of any news article. Simply type
+      the link to the article in the box below then click submit. The NLP
+      engine will return the title, author, and date as well as a 3 sentence
+      summary and some suggested hashtags. Enjoy!
+    </summary>
+    <input type="text" id="articleUrl" placeholder="Enter url of article">
+    <div class="buttonLine">
+      <button id="submit" type="submit">Submit</button>
+    </div>
+    <h2 class="results">Results</h2>
+    <div class="resultsBox" id="resultsBox">
+    </div>
+    <footer class="footer">
+      <div>Text Analysis by Aylien API</div>
+      <img src="https://s3.amazonaws.com/aylien-main/logo/aylien/Full-transparent-background-512.png" id='aylienLogo'>
+    </footer>
+  </body>
+</html>

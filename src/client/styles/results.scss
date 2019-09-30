@@ -1,0 +1,25 @@
+@import 'base';
+
+.results {
+  grid-area: he;
+}
+
+.resultsBox {
+  grid-area: rb;
+  min-height: 500px;
+  background-color: $grey;
+  color: $darkblue;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 1.2em;
+  ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    // line-height: 3;
+  }
+  li {
+    padding: 0.3em;
+    line-height: 1.5;
+  }
+}

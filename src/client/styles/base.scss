@@ -1,0 +1,27 @@
+@import url(https://fonts.googleapis.com/css?family=Lato&display=swap);
+
+$darkblue: rgb(32, 41, 60);
+$lightblue: rgb(56, 73, 96);
+$green: rgb(146, 191, 0);
+$grey: rgb(236, 239, 241);
+
+html {
+  background-color: $darkblue;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: white;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: auto;
+  grid-template-rows: 75px 75px 50px 40px 50px;
+  grid-template-areas:
+  "tl"
+  "ds"
+  "au"
+  "bu"
+  "he"
+  "rb"
+  "ft";
+}

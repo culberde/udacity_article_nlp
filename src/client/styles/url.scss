@@ -1,0 +1,9 @@
+@import 'base';
+
+#articleUrl {
+  grid-area: au;
+  background-color: $grey;
+  border-radius: 4px;
+  padding: 10px;
+  font-family: inherit;
+}

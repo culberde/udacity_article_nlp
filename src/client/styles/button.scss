@@ -1,0 +1,20 @@
+@import 'base';
+
+.buttonLine {
+  grid-area: bu;
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+}
+
+button {
+  border-radius: 10px;
+  height: 55px;
+  width: 115px;
+  padding: 5px;
+  font-family: inherit;
+  font-size: 1.2em;
+  cursor: pointer;
+  color: white;
+  background-color: $lightblue;
+}
